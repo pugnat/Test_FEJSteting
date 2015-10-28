@@ -16,3 +16,11 @@ before_install:
 
 before_script:
     - npm install
+# cf:  http://javaetmoi.com/2014/02/developper-industrialiser-web-app-recherche-angularjs/                 	 	 
+#  - npm install -g grunt-cli
+after_success:
+# cf:  http://javaetmoi.com/2014/02/developper-industrialiser-web-app-recherche-angularjs/    
+# configurer https://coveralls.io/ ?             	 	 
+  - grunt coverage
+	
+	
