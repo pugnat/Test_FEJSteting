@@ -2,7 +2,10 @@ language: node_js
 node_js:
     - "0.10"
     - "stable"
-    - "node"
+env :
+# Pour plus tard"
+    - BROWSSER=chromium_browser
+
 script: node_modules/karma/bin/karma start my.conf.js --single-run
 
 before_install:
