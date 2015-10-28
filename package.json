@@ -4,7 +4,7 @@
   "description": "a sample testing setup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tevko/FEJStesting.git"
+    "url": "https://github.com/pugnat/FEJStesting.git"
   },
   "keywords": [
     "testing",
@@ -13,12 +13,12 @@
     "travis",
     "node"
   ],
-  "author": "@tevko",
+  "author": "@pugnat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tevko/FEJStesting/issues"
+    "url": "https://github.com/pugnat/FEJStesting/issues"
   },
-  "homepage": "https://github.com/tevko/FEJStesting",
+  "homepage": "https://github.com/pugnat/FEJStesting",
   "devDependencies": {
     "jasmine-core": "^2.3.2",
     "karma": "^0.12.31",
